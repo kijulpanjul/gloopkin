@@ -1,108 +1,109 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>GLOOPKIN - Meme Token Lucu</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: "Comic Sans MS", cursive, sans-serif;
-      background: linear-gradient(to right, #f6d365, #fda085);
-      text-align: center;
-      color: #222;
-    }
-
-    img.banner {
-      max-width: 90%;
-      margin: 30px auto;
-      display: block;
-      border-radius: 16px;
-      box-shadow: 0 0 12px rgba(0,0,0,0.2);
-    }
-
-    h1 {
-      font-size: 3.5rem;
-      color: #e63946;
-      margin: 20px 0 10px;
-    }
-
-    p.description {
-      font-size: 1.2rem;
-      margin: 10px 30px;
-    }
-
-    .btns {
-      margin-top: 30px;
-    }
-
-    .btns a {
-      display: inline-block;
-      margin: 10px;
-      padding: 12px 24px;
-      font-size: 1rem;
-      color: white;
-      background-color: #ff5e57;
-      border-radius: 30px;
-      text-decoration: none;
-      transition: 0.2s;
-    }
-
-    .btns a:hover {
-      background-color: #ff2e2e;
-    }
-
-    .footer {
-      margin-top: 40px;
-      font-size: 0.9rem;
-    }
-
-    button.copy-btn {
-      background: #4caf50;
-      color: white;
-      border: none;
-      padding: 8px 16px;
-      margin-top: 10px;
-      border-radius: 20px;
-      cursor: pointer;
-    }
-
-    button.copy-btn:hover {
-      background: #388e3c;
-    }
-  </style>
-</head>
-<body>
-
-  <!-- Gambar banner -->
-  <img src="3308a1b2-1f8a-4600-94e7-d8a59e0e8ff7.png" alt="Gloopkin Meme Banner" class="banner" />
-
-  <!-- Judul besar -->
-  <h1>GLOOPKIN</h1>
-  <p class="description">Token meme lucu. Gak guna. Tapi lucu banget. Join komunitas Gloopkin sekarang sebelum ketinggalan 🚀</p>
-
-  <!-- Tombol Aksi -->
-  <div class="btns">
-    <a href="https://t.me/yourgroup" target="_blank">Telegram</a>
-    <a href="https://dexscreener.com" target="_blank">Chart</a>
-    <a href="https://app.uniswap.org" target="_blank">Buy</a>
-  </div>
-
-  <!-- Contract Address -->
-  <div class="footer">
-    <p><strong>CA:</strong> <code id="ca">0xABCDEF1234567890abcdef1234567890abcdef12</code></p>
-    <button class="copy-btn" onclick="copyCA()">📋 Copy CA</button>
-  </div>
-
-  <script>
-    function copyCA() {
-      const ca = document.getElementById("ca").textContent;
-      navigator.clipboard.writeText(ca).then(() => {
-        alert("CA berhasil disalin ke clipboard!");
-      });
-    }
-  </script>
-
-</body>
-</html>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>GLOOPKIN - Meme Token Lucu</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        background: linear-gradient(to right, #f6d365, #fda085);
+        text-align: center;
+        color: #222;
+      }
+  
+      img.banner {
+        max-width: 90%;
+        margin: 30px auto;
+        display: block;
+        border-radius: 16px;
+        box-shadow: 0 0 12px rgba(0,0,0,0.2);
+      }
+  
+      h1 {
+        font-size: 3.5rem;
+        color: #e63946;
+        margin: 20px 0 10px;
+      }
+  
+      p.description {
+        font-size: 1.2rem;
+        margin: 10px 30px;
+      }
+  
+      .btns {
+        margin-top: 30px;
+      }
+  
+      .btns a {
+        display: inline-block;
+        margin: 10px;
+        padding: 12px 24px;
+        font-size: 1rem;
+        color: white;
+        background-color: #ff5e57;
+        border-radius: 30px;
+        text-decoration: none;
+        transition: 0.2s;
+      }
+  
+      .btns a:hover {
+        background-color: #ff2e2e;
+      }
+  
+      .footer {
+        margin-top: 40px;
+        font-size: 0.9rem;
+      }
+  
+      button.copy-btn {
+        background: #4caf50;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        margin-top: 10px;
+        border-radius: 20px;
+        cursor: pointer;
+      }
+  
+      button.copy-btn:hover {
+        background: #388e3c;
+      }
+    </style>
+  </head>
+  <body>
+  
+    <!-- Gambar banner -->
+    <img src="gloopkin.png" alt="Gloopkin Meme Banner" class="banner" />
+    
+  
+    <!-- Judul besar -->
+    <h1>GLOOPKIN</h1>
+    <p class="description">Token meme lucu. Gak guna. Tapi lucu banget. Join komunitas Gloopkin sekarang sebelum ketinggalan 🚀</p>
+  
+    <!-- Tombol Aksi -->
+    <div class="btns">
+      <a href="https://t.me/yourgroup" target="_blank">Telegram</a>
+      <a href="https://dexscreener.com" target="_blank">Chart</a>
+      <a href="https://app.uniswap.org" target="_blank">Buy</a>
+    </div>
+  
+    <!-- Contract Address -->
+    <div class="footer">
+      <p><strong>CA:</strong> <code id="ca">0xABCDEF1234567890abcdef1234567890abcdef12</code></p>
+      <button class="copy-btn" onclick="copyCA()">📋 Copy CA</button>
+    </div>
+  
+    <script>
+      function copyCA() {
+        const ca = document.getElementById("ca").textContent;
+        navigator.clipboard.writeText(ca).then(() => {
+          alert("CA berhasil disalin ke clipboard!");
+        });
+      }
+    </script>
+  
+  </body>
+  </html>
